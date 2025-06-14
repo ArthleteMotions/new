@@ -2288,7 +2288,7 @@ textarea.w-select {
 :root {
   --lime-bg: #fcffe6;
   --body-text: #000000b3;
-  --title-color: #166e3f;
+  --title-color: #FE5F20;
   --white: white;
   --lemon: #e5f77e;
 }
@@ -2376,6 +2376,7 @@ p {
 }
 
 .nav-wrapper {
+  margin-top: 1.5rem;
   z-index: 9999999;
   justify-content: center;
   align-items: center;
@@ -2514,7 +2515,7 @@ p {
 }
 
 .section_hero {
-  background-color: var(--lemon);
+  background-color:#FFE5B4;
   padding-bottom: 18rem;
   position: relative;
 }
@@ -2897,7 +2898,7 @@ p {
 .nav-btn-group {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -3226,4 +3227,68 @@ p {
 #w-node-d6cd619e-a3dd-5974-857f-a06478552401-7355560f,
 #w-node-_87deb6eb-7cfa-a268-4a34-51b84260703c-7355560f {
   justify-self: start;
+}
+
+.div-block.text-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: -2rem;
+}
+
+.section_hero h1 {
+  color: rgb(255, 100, 23);
+  -webkit-text-stroke:  #000; /* For Chrome, Safari, Edge */
+  text-stroke: 1px #000;         /* For future compatibility */
+}
+
+/* Hamburger menu icon styles */
+.mobile-nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 1001;
+}
+.mobile-nav-toggle span {
+  display: block;
+  width: 2rem;
+  height: 0.25rem;
+  margin: 0.4rem 0;
+  background: #FE5F20;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Mobile nav menu overlay */
+.mobile-nav-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.98);
+  z-index: 1000;
+  gap: 2rem;
+}
+.mobile-nav-menu.open {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-divider,
+  .nav-link_wrap,
+  .nav-btn-group {
+    display: none !important;
+  }
+  .mobile-nav-toggle {
+    display: block;
+  }
 }
