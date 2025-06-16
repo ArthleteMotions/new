@@ -1,0 +1,103 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Grid Layout Styles */
+.grid-bg {
+  background-image: linear-gradient(to right, rgba(163, 217, 165, 0.1) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(163, 217, 165, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.section-with-grid {
+  position: relative;
+}
+
+.section-with-grid::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(163, 217, 165, 0.1) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(163, 217, 165, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Floating animation for geometric shapes */
+@keyframes float-slow {
+  0% { transform: translate(0, 0) rotate(0); }
+  50% { transform: translate(5px, -5px) rotate(5deg); }
+  100% { transform: translate(0, 0) rotate(0); }
+}
+
+@keyframes float-medium {
+  0% { transform: translate(0, 0) rotate(0); }
+  50% { transform: translate(-8px, 8px) rotate(-8deg); }
+  100% { transform: translate(0, 0) rotate(0); }
+}
+
+@keyframes float-fast {
+  0% { transform: translate(0, 0) rotate(0); }
+  50% { transform: translate(10px, 10px) rotate(10deg); }
+  100% { transform: translate(0, 0) rotate(0); }
+}
+
+.challenges-section .absolute:nth-child(3n+1) {
+  animation: float-slow 8s ease-in-out infinite;
+}
+
+.challenges-section .absolute:nth-child(3n+2) {
+  animation: float-medium 6s ease-in-out infinite;
+}
+
+.challenges-section .absolute:nth-child(3n) {
+  animation: float-fast 10s ease-in-out infinite;
+}
