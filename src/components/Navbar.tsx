@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 
@@ -32,7 +31,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <a href="/" className="flex items-center">
-            <span className="text-blue-500 font-bold text-2xl">Arth<span className="text-white">lete</span></span>
+            <img src="/logo.PNG" alt="Arthlete Logo" className="h-10 w-auto" />
           </a>
           
           {/* Mobile Menu Toggle */}
@@ -51,18 +50,19 @@ export default function Navbar() {
             )}
           </button>
           
-          {/* Desktop Menu */}
-          <nav className="hidden lg:flex items-center space-x-8">
-            <a href="#features" className="text-white hover:text-blue-400 transition-colors">Features</a>
-            <a href="#workouts" className="text-white hover:text-blue-400 transition-colors">Workouts</a>
-            <a href="#pricing" className="text-white hover:text-blue-400 transition-colors">Pricing</a>
-            <a href="#reviews" className="text-white hover:text-blue-400 transition-colors">Reviews</a>
-            <a href="#faq" className="text-white hover:text-blue-400 transition-colors">FAQ</a>
-          </nav>
-          
-          <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="ghost" className="text-white hover:text-blue-400">Log In</Button>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white">Get Started</Button>
+          {/* Desktop Menu and Buttons */}
+          <div className="hidden lg:flex items-center space-x-8">
+            <nav className="flex items-center space-x-8">
+              <a href="#features" className="text-white hover:text-[#FE5F20] transition-colors">Features</a>
+              <a href="#workouts" className="text-white hover:text-[#FE5F20] transition-colors">Workouts</a>
+              <a href="#reviews" className="text-white hover:text-[#FE5F20] transition-colors">Reviews</a>
+              <a href="#faq" className="text-white hover:text-[#FE5F20] transition-colors">FAQ</a>
+            </nav>
+            
+            <div className="flex items-center space-x-4">
+              <Button variant="ghost" className="text-white hover:text-[#FE5F20]">Log In</Button>
+              <Button className="bg-[#FE5F20] hover:bg-[#e5561d] text-white">Get Started</Button>
+            </div>
           </div>
         </div>
         
@@ -70,14 +70,13 @@ export default function Navbar() {
         {isMobileMenuOpen && (
           <nav className="lg:hidden bg-gray-900 mt-4 p-4 rounded-lg animate-in fade-in duration-200">
             <div className="flex flex-col space-y-4">
-              <a href="#features" className="text-white hover:text-blue-400 py-2 transition-colors">Features</a>
-              <a href="#workouts" className="text-white hover:text-blue-400 py-2 transition-colors">Workouts</a>
-              <a href="#pricing" className="text-white hover:text-blue-400 py-2 transition-colors">Pricing</a>
-              <a href="#reviews" className="text-white hover:text-blue-400 py-2 transition-colors">Reviews</a>
-              <a href="#faq" className="text-white hover:text-blue-400 py-2 transition-colors">FAQ</a>
+              <a href="#features" className="text-white hover:text-[#FE5F20] py-2 transition-colors">Features</a>
+              <a href="#workouts" className="text-white hover:text-[#FE5F20] py-2 transition-colors">Workouts</a>
+              <a href="#reviews" className="text-white hover:text-[#FE5F20] py-2 transition-colors">Reviews</a>
+              <a href="#faq" className="text-white hover:text-[#FE5F20] py-2 transition-colors">FAQ</a>
               <div className="flex flex-col space-y-2 pt-2 border-t border-gray-700">
                 <Button variant="ghost" className="text-white hover:bg-gray-800 w-full">Log In</Button>
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white w-full">Get Started</Button>
+                <Button className="bg-[#FE5F20] hover:bg-[#e5561d] text-white w-full">Get Started</Button>
               </div>
             </div>
           </nav>

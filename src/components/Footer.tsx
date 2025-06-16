@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 export default function Footer() {
@@ -62,7 +61,7 @@ export default function Footer() {
               <li><a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">Partner with Us</a></li>
             </ul>
             <div className="mt-6">
-              <h4 className="text-sm font-semibold mb-2">Download the app</h4>
+              <h4 className="text-sm font-semibold mb-2">Join the Waitlist</h4>
               <div className="flex space-x-2">
                 <Button variant="outline" className="border-gray-700 hover:border-gray-600 text-white hover:bg-gray-800">
                   <svg className="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">

@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ChevronRightIcon } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -22,7 +21,7 @@ export default function LandingPage() {
                 Arthlete uses advanced AI to analyze your movements, provide real-time feedback, and create personalized workout plans that adapt to your progress.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white text-lg py-6 px-8">
+                <Button className="bg-[#FE5F20] hover:bg-[#e5561d] text-white text-lg py-6 px-8">
                   Start Free Trial
                 </Button>
                 <Button variant="outline" className="border-gray-600 text-white hover:bg-gray-800 text-lg py-6 px-8">
@@ -59,7 +58,7 @@ export default function LandingPage() {
                   className="rounded-lg w-full"
                 />
               </div>
-              <div className="absolute -bottom-5 -right-5 bg-blue-600 text-white p-4 rounded-lg shadow-xl">
+              <div className="absolute -bottom-5 -right-5 bg-[#FE5F20] text-white p-4 rounded-lg shadow-xl">
                 <p className="font-medium">Advanced AI</p>
                 <p className="text-sm opacity-80">Motion tracking</p>
               </div>
@@ -80,7 +79,7 @@ export default function LandingPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-colors">
-              <div className="w-14 h-14 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#FE5F20]/20 rounded-xl flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                 </svg>
@@ -92,7 +91,7 @@ export default function LandingPage() {
             </div>
             
             <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-colors">
-              <div className="w-14 h-14 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#FE5F20]/20 rounded-xl flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                 </svg>
@@ -104,7 +103,7 @@ export default function LandingPage() {
             </div>
             
             <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-colors">
-              <div className="w-14 h-14 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#FE5F20]/20 rounded-xl flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -116,7 +115,7 @@ export default function LandingPage() {
             </div>
             
             <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-colors">
-              <div className="w-14 h-14 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#FE5F20]/20 rounded-xl flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
@@ -128,7 +127,7 @@ export default function LandingPage() {
             </div>
             
             <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-colors">
-              <div className="w-14 h-14 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#FE5F20]/20 rounded-xl flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -140,7 +139,7 @@ export default function LandingPage() {
             </div>
             
             <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-colors">
-              <div className="w-14 h-14 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-[#FE5F20]/20 rounded-xl flex items-center justify-center mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
@@ -191,14 +190,15 @@ export default function LandingPage() {
               <p className="text-lg mb-8 opacity-90">
                 Join thousands of users who've already improved their fitness with Arthlete. Start your free 14-day trial today.
               </p>
-              <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <Button className="bg-white text-blue-600 hover:bg-gray-100 text-lg py-6 px-8">
-                  Download Now
-                </Button>
-                <Button variant="outline" className="border-white text-white hover:bg-blue-700 text-lg py-6 px-8">
-                  Learn More
-                </Button>
-              </div>
+              <p className="text-gray-600 mb-6">Join the waitlist to be the first to know when we launch!</p>
+              <a 
+                href="https://play.google.com/store/apps/details?id=com.arthlete.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-[#FE5F20] text-white px-6 py-3 rounded-md font-medium hover:bg-[#e5561d] transition-colors"
+              >
+                Join Waitlist
+              </a>
             </div>
           </div>
         </div>

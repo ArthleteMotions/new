@@ -1,8 +1,6 @@
-
 import React from 'react';
 import { Hero } from '../components/home/Hero';
 import { Features } from '../components/home/Features';
-import { Pricing } from '../components/home/Pricing';
 import { FAQ } from '../components/home/FAQ';
 import { Reviews } from '../components/home/Reviews';
 import { Navbar } from '../components/home/Navbar';
@@ -17,7 +15,6 @@ const Home = () => {
       <main className="flex-1">
         <Hero />
         <Features />
-        <Pricing />
         <Reviews />
         <FAQ />
       </main>

@@ -47,11 +47,14 @@ export const Challenges: React.FC = () => {
           
           {/* CTA section with increased top margin */}
           <div className="text-center mt-10 md:mt-16"> {/* Increased top margin */}
-            <p className="mb-4 text-[#333] text-base md:text-lg">Haven't downloaded yet? Install now!</p> {/* Increased text size */}
-            <a href="https://forms.gle/RHsTMRrQkHoToqxXA" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-[#ff6924] text-white hover:bg-[#1a332a] text-base md:text-lg px-8 md:px-10 py-3 md:py-4 rounded-md shadow-md hover:shadow-lg transition duration-300"> {/* Enhanced button padding, shadow, hover effect */}
-                Download Now
-              </Button>
+            <p className="mb-4 text-[#333] text-base md:text-lg">Haven't joined yet? Join the waitlist now!</p> {/* Increased text size */}
+            <a 
+              href="https://forms.gle/RHsTMRrQkHoToqxXA" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-[#FE5F20] text-white px-6 py-3 rounded-md font-medium hover:bg-[#e5561d] transition-colors"
+            >
+              Join Waitlist
             </a>
           </div>
         </div>

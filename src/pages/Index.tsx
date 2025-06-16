@@ -1,11 +1,9 @@
-
 import React from 'react';
 import { TopBanner } from '@/components/home/TopBanner';
 import { Navbar } from '@/components/home/Navbar';
 import { Hero } from '@/components/home/Hero';
 import { Features } from '@/components/home/Features';
 import { Reviews } from '@/components/home/Reviews';
-import { Pricing } from '@/components/home/Pricing';
 import { Challenges } from '@/components/home/Challenges';
 import { FAQ } from '@/components/home/FAQ';
 import { Footer } from '@/components/home/Footer';
@@ -24,9 +22,6 @@ const Index = () => {
         </section>
         <section id="reviews" className="section-with-grid">
           <Reviews />
-        </section>
-        <section id="pricing" className="section-with-grid">
-          <Pricing />
         </section>
         <section id="challenges" className="section-with-grid challenges-section">
           <Challenges />
