@@ -2515,7 +2515,7 @@ html {
   }
   
   .section_hero {
-    background-color:#FFE5B4;
+    background-color:#FE5F20;
     padding-bottom: 18rem;
     position: relative;
   }
@@ -3237,7 +3237,7 @@ html {
   }
   
   .section_hero h1 {
-    color: rgb(255, 100, 23);
+    color: #ff6417;
     -webkit-text-stroke:  #000; /* For Chrome, Safari, Edge */
     text-stroke: 1px #000;         /* For future compatibility */
   }
